@@ -6,8 +6,8 @@
 
 Foram incluídas 20 novas frases distribuídas entre as intenções saudacao, preco, estoque e pedido, com o objetivo de deixar o modelo mais variado.
 
-Antes da atividade: accuracy de 85,7%
-Meio da atividade: accuracy de 83,3%
+* Antes da atividade: accuracy de 85,7%
+* Meio da atividade: accuracy de 83,3%
 
 2. Nova intenção: devolucao
 
