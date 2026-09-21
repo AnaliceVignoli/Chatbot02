@@ -13,11 +13,11 @@ Meio da atividade: accuracy de 83,3%
 
 Adicionada uma nova classe de intenção para lidar com pedidos de troca/devolução, incluindo:
 
-* Novos exemplos de frases no dataset (ex: "quero devolver meu produto", "como faço uma devolução?")
+* Novos exemplos de frases no dataset
 * Nova entrada no dicionário respostas, com mensagens específicas para essa intenção
 
 Após reforço com mais exemplos, a accuracy geral do modelo subiu para 100%.
 
 3. Extração de produto/marca
 
-Criada a função extrair_produto, que identifica marcas conhecidas (Dell, Samsung, Apple, etc.) dentro da mensagem do usuário usando comparação simples de texto — assim como extrair_pedido. A função chatbot foi atualizada para incluir o campo "produto" no resultado retornado, junto com mensagem, intencao e resposta.
+Criada a função extrair_produto, que identifica marcas conhecidas (Dell, Samsung, Apple, etc.) dentro da mensagem do usuário usando comparação simples de texto, assim como extrair_pedido. A função chatbot foi atualizada para incluir o campo "produto" no resultado retornado, junto com mensagem, intencao e resposta.
