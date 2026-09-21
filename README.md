@@ -13,8 +13,8 @@ Meio da atividade: accuracy de 83,3%
 
 Adicionada uma nova classe de intenção para lidar com pedidos de troca/devolução, incluindo:
 
-> Novos exemplos de frases no dataset (ex: "quero devolver meu produto", "como faço uma devolução?")
-> Nova entrada no dicionário respostas, com mensagens específicas para essa intenção
+* Novos exemplos de frases no dataset (ex: "quero devolver meu produto", "como faço uma devolução?")
+* Nova entrada no dicionário respostas, com mensagens específicas para essa intenção
 
 Após reforço com mais exemplos, a accuracy geral do modelo subiu para 100%.
 
